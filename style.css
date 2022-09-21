@@ -1,0 +1,153 @@
+/* google-font   font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* default css */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #30393a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    border-bottom: 2px solid #275cab;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #275cab;
+    display: inline;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 40%;
+    background: #275cab;
+    bottom: -3px;
+    left: 0;
+    border-radius: 3px;
+}
+
+
+/*  preNav*/
+.preNav li a {
+    border-right: 2px solid white;
+    padding: 5px 7px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.preNav li a:hover {
+    color: #275cab;
+}
+
+/* midNav */
+.midNav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midNav img {
+    width: 8vw;
+}
+
+.midNav ul {
+    background-color: #C2DFFF;
+}
+
+.midNav ul li a {
+    border-right: 2px solid white;
+    padding: .5em 3em;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    transition: .3s;
+}
+
+.midNav ul li a:hover {
+    background: #275cab;
+    color: white;
+}
+
+/* navBar */
+.navBar {
+    background-color: #275cab;
+    color: white;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav a {
+    display: block;
+    padding: 19px 16px;
+    font-size: 22px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0);
+}
+
+.nav a:hover {
+    background: #fff;
+    transition: .4s;
+    color: #30393a;
+    border-bottom: 2px solid #30393a;
+}
+
+/* message */
+.messages {
+    margin-top: 80px;
+}
+
+.message-text {
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.message-text h1 {
+    font-size: 1rem;
+}
+
+.message-text button {
+    background: #275cab;
+    color: #fff;
+    padding: 0.7rem 3em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* notices */
+.notices {
+    background: #275cab;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.notice-title {
+    border-bottom: 2px solid #fff;
+    position: relative;
+}
+
+.notice-title h1 {
+    font-size: 36px;
+    display: inline;
+}
+
+.notice-title::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 40%;
+    background: #fff;
+    bottom: -3px;
+    left: 0;
+    border-radius: 3px;
+}
