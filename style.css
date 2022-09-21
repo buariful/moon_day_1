@@ -129,6 +129,7 @@ body {
     background: #275cab;
     color: #fff;
     margin-top: 80px;
+    padding: 40px 0;
 }
 
 .notice-title {
@@ -150,4 +151,17 @@ body {
     bottom: -3px;
     left: 0;
     border-radius: 3px;
+}
+
+.notice-text {
+    padding: 20px 10px;
+    border-bottom: 1px solid #FFF;
+}
+
+.notice-text h2 {
+    font-size: 18px;
+}
+
+.notice-text i {
+    color: #e4b9c0;
 }
