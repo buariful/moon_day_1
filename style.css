@@ -12,6 +12,35 @@ body {
     margin: 0;
 }
 
+.messages {
+    margin-top: 80px;
+}
+
+.message-text {
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.message-text h1 {
+    font-size: 1rem;
+}
+
+.myBtn {
+    background: #275cab;
+    color: #fff;
+    padding: 0.7rem 3em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.myBtn:hover {
+    color: #275cab;
+    background: #fff;
+    transition: .3s;
+    box-shadow: 1px 3px 16px 1px black;
+}
+
 .title {
     border-bottom: 2px solid #275cab;
     position: relative;
@@ -102,27 +131,6 @@ body {
 }
 
 /* message */
-.messages {
-    margin-top: 80px;
-}
-
-.message-text {
-    display: flex;
-    align-items: center;
-    margin-top: 41px;
-}
-
-.message-text h1 {
-    font-size: 1rem;
-}
-
-.message-text button {
-    background: #275cab;
-    color: #fff;
-    padding: 0.7rem 3em;
-    border-radius: 5px;
-    margin-top: 10px;
-}
 
 /* notices */
 .notices {
@@ -164,4 +172,33 @@ body {
 
 .notice-text i {
     color: #e4b9c0;
+}
+
+/* schoolarship */
+.schoolarship {
+    background-image: url(./img/shutterstock_1272784546-1024x683.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+
+.overlays {
+    background: #000000ba;
+}
+
+.overlays div {
+    padding: 0 151px;
+}
+
+.schoolarship h1 {
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.schoolarship p {
+    font-size: 19px;
+    margin: 0 25px;
 }
